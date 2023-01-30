@@ -2,7 +2,7 @@
   <div class="flex w-full">
     <div class="m-auto">
       <h1 class="text-center text-2xl md:text-4xl my-2">
-        Vue 3 Full Course - 10 Apps in 10 Hours
+        Vue 3 App
       </h1>
       <div class="">
         <div class="flex justify-around mb-4">
