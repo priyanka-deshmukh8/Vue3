@@ -11,8 +11,7 @@
 
 
 
-## 10 Apps Build             
-## App link : https://lovely-semifreddo-bf0681.netlify.app/
+## 10 Apps Build          
 
 1. 🔷 DcHeros
    1. v-for
