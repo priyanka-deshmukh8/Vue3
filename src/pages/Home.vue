@@ -7,15 +7,11 @@
       <div class="">
         <div class="flex justify-around mb-4">
           <a
-            href="https://github.com/bitfumes/vue3-for-beginners"
+            href="https://github.com/priyanka-deshmukh8/Vue3"
             target="_blank"
             >Github Source Code</a
           >
-          <a
-            href="https://www.canva.com/design/DAEJRdAPBlc/V_Tcr4uLQhpf7Gh0ANXAKw/view?utm_content=DAEJRdAPBlc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
-            target="_blank"
-            >Canva Presentation</a
-          >
+          <a/>
         </div>
 
         <div class="flex justify-center">
