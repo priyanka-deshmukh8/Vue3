@@ -12,8 +12,8 @@
 
 
 ## 10 Apps Build 
-## App link: https://lovely-semifreddo-bf0681.netlify.app/
-
+## App link: 
+https:https://vuejs3-priyankadeshmukh.netlify.app/
 1. 🔷 DcHeros
    1. v-for
    2. v-bind
