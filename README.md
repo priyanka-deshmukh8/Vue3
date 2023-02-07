@@ -13,7 +13,7 @@
 
 ## 10 Apps Build 
 ## App link: 
-https:https://vuejs3-priyankadeshmukh.netlify.app/
+https://vuejs3-priyankadeshmukh.netlify.app/
 1. 🔷 DcHeros
    1. v-for
    2. v-bind
