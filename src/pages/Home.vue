@@ -2,7 +2,7 @@
   <div class="flex w-full">
     <div class="m-auto">
       <h1 class="text-center text-2xl md:text-4xl my-2">
-        Vue 3 App
+        Multivue
       </h1>
       <div class="">
         <div class="flex justify-around mb-4">
@@ -18,17 +18,17 @@
           <div class="w-11/12 grid grid-cols-2 md:grid-cols-3 gap-4">
             <div v-for="app in list" :key="app.path" class="text-left my-4">
               <router-link class="w-full" :to="app.path">
-                <p class="text-xl font-semibold">🔷 {{ app.title }}</p>
+                <p class="text-xl font-bold">🔷 {{ app.title }}</p>
               </router-link>
               <div>
-                <div class="font-semibold mt-2">Topic Covered:</div>
+                <div class="font- bold mt-2">Topic Covered:</div>
                 <p v-for="topic in app.concepts" :key="topic">{{ topic }}</p>
               </div>
             </div>
             <div class="text-left my-4">
-              <p class="text-xl font-semibold">🔷 Login</p>
+              <p class="text-xl font-bold">🔷 Login</p>
               <div class="">
-                <div class="text-lg font-semibold">Topic Covered:</div>
+                <div class="text-lg font-semibold">Topics Covered:</div>
                 <p v-for="topic in login.concepts" :key="topic">{{ topic }}</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default {
     const list = ref([
       {
         path: "/dc-heros",
-        title: "DcHeros",
+        title: "Notes",
         concepts: [
           "v-for, v-bind, v-model, v-on",
           "methods",
@@ -82,11 +82,7 @@ export default {
           "Composition API",
         ],
       },
-      {
-        path: "/resuseable-modal",
-        title: "ReuseableModal",
-        concepts: ["slots", "named slots"],
-      },
+     
       {
         path: "/chat",
         title: "Chat",
