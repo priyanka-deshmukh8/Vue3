@@ -1,6 +1,6 @@
 <template>
   <div class="m-auto">
-    <h1 class="text-3xl text-center my-4">Dc Heros {{ herosCount }}</h1>
+    <h1 class="text-3xl text-center my-4">Notes {{ herosCount }}</h1>
     <ul class="border rounded p-2">
       <li
         class="flex justify-between"
@@ -17,14 +17,14 @@
       <input
         class="border rounded px-2"
         v-model="newHero"
-        placeholder="Type Hero Name Here"
+        placeholder="Type  Here"
         ref="newHeroRef"
       />
       <button
         class="border rounded bg-gradient-to-r from-red-700 to-pink-500 text-white ml-2 px-2"
         type="submit"
       >
-        Add Hero
+        Add 
       </button>
     </form>
   </div>
